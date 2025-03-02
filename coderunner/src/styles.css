@@ -1,0 +1,143 @@
+/* Global styles for the app */
+.app {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Landing page styles */
+  .landing-page {
+    position: relative;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .dsa-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .dsa-info h2 {
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  .dsa-info p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .dsa-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .dsa-info li {
+    margin-bottom: 10px;
+  }
+  
+  .proceed-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .proceed-button:hover {
+    background-color: #66bb6a;
+  }
+  
+  /* Home page styles */
+  .home-page {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .home-page h1 {
+    font-size: 36px;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .home-page h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .level-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .level-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .level-button:hover {
+    background-color: #42a5f5;
+  }
+  
+  /* Placeholder level styles */
+  .level-placeholder {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .level-placeholder h2 {
+    font-size: 28px;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .level-placeholder p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #ef5350;
+  }
+  
+  /* Ensure canvases are centered */
+  #game-canvas,
+  #landing-canvas {
+    display: block;
+    margin: 0 auto;
+  }
